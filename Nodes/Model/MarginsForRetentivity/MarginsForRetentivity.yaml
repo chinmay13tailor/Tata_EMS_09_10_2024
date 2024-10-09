@@ -1,0 +1,19 @@
+Name: MarginsForRetentivity
+Type: FolderType
+Children:
+- Name: Card1LeftMargin
+  Type: BaseDataVariableType
+  DataType: Size
+  Value: 16.0
+- Name: Card1ToptMargin
+  Type: BaseDataVariableType
+  DataType: Size
+  Value: 16.0
+- Name: Card2LeftMargin
+  Type: BaseDataVariableType
+  DataType: Size
+  Value: 352.0
+- Name: Card2TopMargin
+  Type: BaseDataVariableType
+  DataType: Size
+  Value: 16.0

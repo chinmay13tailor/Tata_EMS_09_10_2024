@@ -1,0 +1,11 @@
+Name: AllMeterPanels
+Type: FolderType
+Children:
+- File: 33KV/33KV.yaml
+- File: Utilities/Utilities.yaml
+- File: PaintShop/PaintShop.yaml
+- File: BodyShop/BodyShop.yaml
+- File: TCF/TCF.yaml
+- File: Stamping/Stamping.yaml
+- File: Spare/Spare.yaml
+- File: SPP/SPP.yaml

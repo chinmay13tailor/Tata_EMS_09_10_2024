@@ -1,0 +1,6 @@
+Name: Alarms
+Type: AlarmsCategoryFolder
+Children:
+- File: Templates/Templates.yaml
+- File: PLC_Status_Alarms/PLC_Status_Alarms.yaml
+- File: 33KV/33KV.yaml

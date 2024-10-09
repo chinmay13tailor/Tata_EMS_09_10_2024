@@ -1,0 +1,6754 @@
+Name: 33KV
+Type: FolderType
+Children:
+- Name: R_Phase_Alarms1
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[17]"
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage Alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms1
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage Alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms1
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage Alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms1
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms2
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost "}
+- Name: Y_Phase_Alarms2
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage Alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms2
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage Alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms2
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_INCOMER2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms3
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG1_IN1_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms3
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG1_IN1_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms3
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG1_IN1_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is Under 200 V"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms3
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG1_IN1_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms4
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG2_IN1_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms4
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG2_IN1_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms4
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG2_IN1_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms4
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG2_IN1_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms5
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG3_IN1_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms5
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG3_IN1_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms5
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG3_IN1_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms5
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG3_IN1_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms6
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG4_IN1_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage Alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms6
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG4_IN1_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms6
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG4_IN1_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms6
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG4_IN1_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms7
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG5_IN1_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms7
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG5_IN1_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms7
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG5_IN1_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms7
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG5_IN1_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms8
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG6_IN1_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms8
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG6_IN1_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms8
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG6_IN1_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms8
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG6_IN1_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms9
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG7_IN1_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms9
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG7_IN1_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms9
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG7_IN1_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms9
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG7_IN1_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms10
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG8_IN2_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms10
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG8_IN2_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms10
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG8_IN2_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms10
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG8_IN2_PAINTSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms11
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG9_IN2_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms11
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG9_IN2_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms11
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG9_IN2_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is beyond 245 V"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms11
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG9_IN2_ENGINESHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms12
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG10_IN2_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms12
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG10_IN2_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms12
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG10_IN2_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms12
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG10_IN2_BODYSHOP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms13
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG11_IN2_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms13
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG11_IN2_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms13
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG11_IN2_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms13
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG11_IN2_TCF"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms14
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG12_IN2_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms14
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG12_IN2_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms14
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG12_IN2_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is beyond 245 V"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms14
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG12_IN2_STAMPING"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms15
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG13_IN2_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms15
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG13_IN2_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms15
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG13_IN2_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is beyond 245 V"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms15
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG13_IN2_UTILITY"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms16
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG14_IN2_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms16
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG14_IN2_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms16
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG14_IN2_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is beyond 245 V"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms16
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG14_IN2_SPARE"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms17
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG15_IN2_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms17
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG15_IN2_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms17
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG15_IN2_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is beyond 245 V"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms17
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG15_IN2_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms18
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG16_IN1_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms18
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG16_IN1_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms18
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG16_IN1_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is beyond 245 V"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms18
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_OG16_IN1_SPP"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms19
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_EB_IN1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms19
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_EB_IN1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms19
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_EB_IN1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Voltage is beyond 245 V"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms19
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_EB_IN1"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: R_Phase_Alarms20
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_DG_IN2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"R_Phase Lost"}
+- Name: Y_Phase_Alarms20
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_DG_IN2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Y Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: B_Phase_Alarms20
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_DG_IN2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Voltage"
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 36300.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 8250.0
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 6600.0
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Voltage Surge appears"}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Under Voltage alarm"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"B Phase Lost"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"High Voltage Surge appears"}
+- Name: Pf_Alarms20
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33KV"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "J1_DG_PANEL_DG_IN2"
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PF"
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.7
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.5
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .7"}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Pf is Under .5"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: PverconsumptionAlarm33KV
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/Consumption33KV"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/Target33KV"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}
+- Name: PverconsumptionAlarmUtility
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/Consumption"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/Target"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}
+- Name: PverconsumptionAlarmStamping
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/ConsumptionStamping"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/TargetStamping"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}
+- Name: PverconsumptionAlarmBodyshop
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/ConsumptionBodyshop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/TargetBodyshop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}
+- Name: PverconsumptionAlarmAdmin
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/ConsumptionEngineshop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/TargetAdmin"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}
+- Name: PverconsumptionAlarmPaintshop
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/ConsumptionPaintshop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/TargetPaintShop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+- Name: PverconsumptionAlarmSPP
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/ConsumptionSpp"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/TargetSPP"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}
+- Name: PverconsumptionAlarmTCF
+  Type: R_Phase_Alarms
+  Children:
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageComparisionPanelInstance/ConsumptionTcf"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Parameter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 34000.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/HomePageHistogram/HomePage2/TargetTCF"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: HighHighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowLowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LowStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: HighStateMessage
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Consumption Exceeds the Target Value"}

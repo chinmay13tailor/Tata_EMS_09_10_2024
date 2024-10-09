@@ -1,0 +1,7 @@
+Name: ConsumptionDistribution
+Type: FolderType
+Children:
+- Name: Status
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

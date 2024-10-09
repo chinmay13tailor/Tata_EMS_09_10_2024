@@ -1,0 +1,15 @@
+Name: Real Time Panels
+Type: FolderType
+Children:
+- File: Flow_Chart/Flow_Chart.yaml
+- File: Real_time_Individual_Panel_Layout/Real_time_Individual_Panel_Layout.yaml
+- File: Utility/Utility.yaml
+- File: Stamping/Stamping.yaml
+- File: PaintShop/PaintShop.yaml
+- File: Admin_Station/Admin_Station.yaml
+- File: Pump_Room/Pump_Room.yaml
+- File: TCF_Station/TCF_Station.yaml
+- File: Body_Shop/Body_Shop.yaml
+- File: SPP/SPP.yaml
+- File: Panel_layout/Panel_layout.yaml
+- File: New_Real_Time_Panel_Formate/New_Real_Time_Panel_Formate.yaml

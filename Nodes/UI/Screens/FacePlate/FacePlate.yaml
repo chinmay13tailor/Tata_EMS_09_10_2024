@@ -1,0 +1,5 @@
+Name: FacePlate
+Type: FolderType
+Children:
+- File: Real_time_Individual_Panel_Layout_FacePlate/Real_time_Individual_Panel_Layout_FacePlate.yaml
+- File: Real_time_Individual_Panel_Design_FacePlate/Real_time_Individual_Panel_Design_FacePlate.yaml

@@ -1,0 +1,3298 @@
+Name: New Real Time Panel Formate
+Type: FolderType
+Children:
+- Name: Panel1
+  Id: g=e3c57169c944776ada682a888bbd9f9e
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#075982"
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalLayout1
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: HorizontalLayout3
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 0
+              - Name: Button1
+                Type: Button
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"POWER DETAILS"}
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 0
+                - Name: Style
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ModellingRule: Optional
+                  Value: "Accent"
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: FontWeight
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  ModellingRule: Optional
+                  Value: 800
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 40.0
+                - Name: ImagePath
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ModellingRule: Optional
+                  Value: "ns=36;%PROJECTDIR%/imgs/Untitled4.png"
+                - Name: ImagePosition
+                  Type: BaseDataVariableType
+                  DataType: Position
+                  ModellingRule: Optional
+                  Value: 4
+                - Name: ImageWidth
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 650.0
+                - Name: ImageHeight
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 55.0
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalLayout1
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle1"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/Active Power"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+              - Name: VerticalLayout2
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle1"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/Reactive Power"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+            - Name: HorizontalLayout2
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalLayout1
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: -50.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 60.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle1"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/Apparent Power"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+          - Name: VerticalLayout2
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: HorizontalLayout3
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 0
+              - Name: Button1
+                Type: Button
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"CURRENT DETAILS"}
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 0
+                - Name: Style
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ModellingRule: Optional
+                  Value: "Accent"
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: FontWeight
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  ModellingRule: Optional
+                  Value: 800
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 40.0
+                - Name: ImagePath
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ModellingRule: Optional
+                  Value: "ns=36;%PROJECTDIR%/imgs/Untitled4.png"
+                - Name: ImageWidth
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 650.0
+                - Name: ImageHeight
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 55.0
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalLayout1
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle2"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/R-Phase"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+              - Name: VerticalLayout2
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle3"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/Y-Phase"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+            - Name: HorizontalLayout2
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalLayout1
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle4"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/B-Phase"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+          - Name: VerticalLayout3
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: HorizontalLayout3
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 0
+              - Name: Button1
+                Type: Button
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"VOLTAGE DETAILS"}
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 0
+                - Name: Style
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ModellingRule: Optional
+                  Value: "Accent"
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: FontWeight
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  ModellingRule: Optional
+                  Value: 800
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 40.0
+                - Name: ImagePath
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ModellingRule: Optional
+                  Value: "ns=36;%PROJECTDIR%/imgs/Untitled4.png"
+                - Name: ImageWidth
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 650.0
+                - Name: ImageHeight
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 54.0
+                - Name: ImagePosition
+                  Type: BaseDataVariableType
+                  DataType: Position
+                  ModellingRule: Optional
+                  Value: 4
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalLayout1
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle2"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/R-Phase"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+              - Name: VerticalLayout2
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle3"
+                        - Name: VerticalAlignment
+                          Type: BaseVariableType
+                          DataType: VerticalAlignment
+                          ModellingRule: Optional
+                          Value: 2
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/Y-Phase"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+            - Name: HorizontalLayout2
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalLayout1
+                Type: Gauge_Layout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: VerticalLayout1
+                  Type: ColumnLayout
+                  Children:
+                  - Name: HorizontalLayout1
+                    Type: RowLayout
+                    Children:
+                    - Name: Rectangle1
+                      Type: Rectangle
+                      Children:
+                      - Name: CircularGauge1
+                        Type: CircularGauge
+                        Children:
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Float
+                          Value: 1.0
+                        - Name: WarningZones
+                          Type: BaseObjectType
+                        - Name: GaugeStyle
+                          Type: BaseDataVariableType
+                          DataType: String
+                          ModellingRule: Optional
+                          Value: "GaugeStyle4"
+                      - Name: Image2
+                        Type: Image
+                        Children:
+                        - Name: Path
+                          Type: BaseDataVariableType
+                          DataType: ResourceUri
+                          Value: "ns=36;%PROJECTDIR%/imgs/Arrow-removebg-preview.png"
+                        - Name: Rotation
+                          Type: BaseVariableType
+                          DataType: Size
+                          Value: 0.0
+                          Children:
+                          - Name: ExpressionEvaluator1
+                            Type: ExpressionEvaluator
+                            Children:
+                            - Name: Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/Value"
+                            - Name: Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MinValue"
+                            - Name: Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../CircularGauge1/MaxValue"
+                  - Name: HorizontalLayout2
+                    Type: RowLayout
+                    Children:
+                    - Name: Button1
+                      Type: Button
+                      Children:
+                      - Name: Text
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        Value: {"LocaleId":"en-US","Text":"Meter-1"}
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_09_10_2024/Model/HomePageJaceWisePanel/B-Phase"
+                          - Name: Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../HorizontalLayout1/Rectangle1/CircularGauge1/Value"
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalLayout1
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: HorizontalLayout1
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 70.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 0
+              - Name: VerticalLayout1
+                Type: ColumnLayout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: BorderThickness
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: Image1
+                    Type: Image
+                    Children:
+                    - Name: Path
+                      Type: BaseDataVariableType
+                      DataType: ResourceUri
+                      Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: FillMode
+                      Type: BaseDataVariableType
+                      DataType: FillModeEnum
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: HitTestVisible
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
+                  - Name: Name
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"LocaleId":"en-US","Text":"Active Energy (KWh)"}
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 60.0
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: BottomMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 10.0
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 20.0
+                  - Name: Value
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"LocaleId":"en-US","Text":"#####"}
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 0.0
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 10.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 30.0
+                    - Name: WordWrap
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 25.0
+              - Name: VerticalLayout2
+                Type: ColumnLayout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: BorderThickness
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: Image1
+                    Type: Image
+                    Children:
+                    - Name: Path
+                      Type: BaseDataVariableType
+                      DataType: ResourceUri
+                      Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: FillMode
+                      Type: BaseDataVariableType
+                      DataType: FillModeEnum
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: HitTestVisible
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
+                  - Name: Name
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"LocaleId":"en-US","Text":"Power Factor"}
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 60.0
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: BottomMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 10.0
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 20.0
+                  - Name: Value
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"LocaleId":"en-US","Text":"#####"}
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 0.0
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 10.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 30.0
+                    - Name: WordWrap
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
+              - Name: VerticalLayout3
+                Type: ColumnLayout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: BorderThickness
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: Image1
+                    Type: Image
+                    Children:
+                    - Name: Path
+                      Type: BaseDataVariableType
+                      DataType: ResourceUri
+                      Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: FillMode
+                      Type: BaseDataVariableType
+                      DataType: FillModeEnum
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: HitTestVisible
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
+                  - Name: Name
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"LocaleId":"en-US","Text":"Frequency(Hz)"}
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 60.0
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: BottomMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 10.0
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 20.0
+                  - Name: Value
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      ModellingRule: Optional
+                      Value: {"LocaleId":"en-US","Text":"#####"}
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 0.0
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 10.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: TextHorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: TextHorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 1
+                    - Name: FontSize
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 30.0
+                    - Name: WordWrap
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: Optional
+                      Value: true
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 10.0
+            - Name: HorizontalLayout3
+              Type: RowLayout
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalLayout1
+                Type: ColumnLayout
+                Children:
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 460.0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: Rectangle1
+                  Type: Rectangle
+                  Children:
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 35.0
+                  - Name: BorderThickness
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 0.0
+                  - Name: SpinBox1
+                    Type: SpinBox
+                    Children:
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Double
+                      Value: 0.0
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 80.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 35.0
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 4.0
+                    - Name: MinValue
+                      Type: BaseDataVariableType
+                      DataType: Double
+                      ModellingRule: Optional
+                      Value: 0.0
+                    - Name: MaxValue
+                      Type: BaseDataVariableType
+                      DataType: Double
+                      ModellingRule: Optional
+                      Value: 2.0
+                    - Name: TextColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                      Value: "#ffffff"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 0
+                  - Name: Label1
+                    Type: Label
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../SpinBox1/Value"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          ModellingRule: None
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 0
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "Power Trend"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 1
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "Current Trend"
+                          - Name: Pair2
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 2
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "Voltage Trend"
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 2
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 2
+                    - Name: LeftMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 4.0
+                    - Name: RightMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 0.0
+                    - Name: TopMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 12.0
+                    - Name: BottomMargin
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 0.0
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: -1.0
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#00000000"
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#00000000"
+                - Name: HorizontalLayout1
+                  Type: RowLayout
+                  Children:
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: Rectangle1
+                    Type: Rectangle
+                    Children:
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: Height
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 50.0
+                    - Name: BorderThickness
+                      Type: BaseDataVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 1.0
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: VerticalAlignment
+                      Type: BaseVariableType
+                      DataType: VerticalAlignment
+                      ModellingRule: Optional
+                      Value: 3
+                    - Name: Power Graph
+                      Type: Trend
+                      Children:
+                      - Name: Pens
+                        Type: BaseObjectType
+                        Children:
+                        - Name: Active_Power_Total
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                          - Name: Color
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#f8e71c"
+                        - Name: Reactive_Power_Total_Power_Total
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                          - Name: Color
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#ff0000"
+                        - Name: Apparent_Power_Total_Power_Total
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                          - Name: Color
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#0fafff"
+                      - Class: Reference
+                        Target: ns=5;i=1129
+                        Direction: Forward
+                      - Name: XAxis
+                        Type: DateTimeAxis
+                        Children:
+                        - Name: Follow
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Window
+                          Type: BaseDataVariableType
+                          DataType: Duration
+                          Value: "1:00:00:0.0000000"
+                        - Name: Interactive
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Time
+                          Type: BaseDataVariableType
+                          DataType: DateTime
+                          Value: "1601-01-01T00:00:00.0000000"
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Tata_EMS/NetLogic/ClockLogic/Time"
+                        - Name: SnapPosition
+                          Type: BaseDataVariableType
+                          DataType: SnapPositionEnum
+                          ModellingRule: Optional
+                          Value: 1
+                      - Name: YAxis
+                        Type: ValueAxis
+                        Children:
+                        - Name: Position
+                          Type: BaseDataVariableType
+                          DataType: HorizontalPositionEnum
+                          Value: 0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: -100.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: 100.0
+                        - Name: AutoScale
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Interactive
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                      - Name: LegendVisible
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Value: true
+                      - Class: Reference
+                        Target: ns=5;i=1201
+                        Direction: Forward
+                      - Name: TimeRanges
+                        Type: BaseObjectType
+                      - Class: Reference
+                        Target: ns=5;i=1209
+                        Direction: Forward
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 400.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 400.0
+                      - Name: ReferenceTimeZone
+                        Type: BaseDataVariableType
+                        DataType: ReferenceTimeZone
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 3
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 50.0
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 35.0
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 50.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 3
+                      - Name: Visible
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Value: false
+                        Children:
+                        - Name: KeyValueConverter1
+                          Type: ValueMapConverter
+                          Children:
+                          - Name: Source
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../Rectangle1/SpinBox1/Value"
+                          - Name: Pairs
+                            Type: BaseObjectType
+                            Children:
+                            - Name: Pair
+                              Type: ValueMapPair
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                Value: 0
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                Value: true
+                            - Name: Pair1
+                              Type: ValueMapPair
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                Value: 1
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                Value: false
+                            - Name: Pair2
+                              Type: ValueMapPair
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                Value: 2
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                Value: false
+                      - Name: Query
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ModellingRule: Optional
+                        Value: "SELECT * FROM \"Realtimetable\" WHERE Meter = 'J1_INCOMER1'"
+                      - Name: Model
+                        Type: NodePointer
+                        DataType: NodeId
+                        ModellingRule: Optional
+                        Value: "/Objects/Tata_EMS_09_10_2024/DataStores/ODBCDatabase"
+                        Children:
+                        - Name: ItemKind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    - Name: FillColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                      Value: "#00000000"
+                    - Name: BorderColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                      Value: "#00000000"
+                    - Name: Current Graph
+                      Type: Trend
+                      Children:
+                      - Name: Pens
+                        Type: BaseObjectType
+                        Children:
+                        - Name: Phase_R_Current
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                        - Name: Phase_Y_Current
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                        - Name: Phase_B_Current
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                      - Class: Reference
+                        Target: ns=5;i=1129
+                        Direction: Forward
+                      - Name: XAxis
+                        Type: DateTimeAxis
+                        Children:
+                        - Name: Follow
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Window
+                          Type: BaseDataVariableType
+                          DataType: Duration
+                          Value: "1:00:00:0.0000000"
+                        - Name: Interactive
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Time
+                          Type: BaseDataVariableType
+                          DataType: DateTime
+                          Value: "1601-01-01T00:00:00.0000000"
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Tata_EMS/NetLogic/ClockLogic/Time"
+                        - Name: SnapPosition
+                          Type: BaseDataVariableType
+                          DataType: SnapPositionEnum
+                          ModellingRule: Optional
+                          Value: 1
+                      - Name: YAxis
+                        Type: ValueAxis
+                        Children:
+                        - Name: Position
+                          Type: BaseDataVariableType
+                          DataType: HorizontalPositionEnum
+                          Value: 0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: -100.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: 100.0
+                        - Name: AutoScale
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                        - Name: Interactive
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                      - Name: LegendVisible
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Value: true
+                      - Class: Reference
+                        Target: ns=5;i=1201
+                        Direction: Forward
+                      - Name: TimeRanges
+                        Type: BaseObjectType
+                      - Class: Reference
+                        Target: ns=5;i=1209
+                        Direction: Forward
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 400.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 400.0
+                      - Name: ReferenceTimeZone
+                        Type: BaseDataVariableType
+                        DataType: ReferenceTimeZone
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 3
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 50.0
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 35.0
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 50.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 3
+                      - Name: Visible
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Value: true
+                        Children:
+                        - Name: KeyValueConverter1
+                          Type: ValueMapConverter
+                          Children:
+                          - Name: Source
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../Rectangle1/SpinBox1/Value"
+                          - Name: Pairs
+                            Type: BaseObjectType
+                            Children:
+                            - Name: Pair
+                              Type: ValueMapPair
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                Value: 0
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                Value: false
+                            - Name: Pair1
+                              Type: ValueMapPair
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                Value: 1
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                Value: true
+                            - Name: Pair2
+                              Type: ValueMapPair
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                Value: 2
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                Value: false
+                      - Name: Query
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ModellingRule: Optional
+                        Value: "SELECT * FROM \"Realtimetable\" WHERE Meter = 'J1_INCOMER1'"
+                      - Name: Model
+                        Type: NodePointer
+                        DataType: NodeId
+                        ModellingRule: Optional
+                        Value: "/Objects/Tata_EMS_09_10_2024/DataStores/ODBCDatabase"
+                        Children:
+                        - Name: ItemKind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    - Name: Voltage Graph
+                      Type: Trend
+                      Children:
+                      - Name: Pens
+                        Type: BaseObjectType
+                        Children:
+                        - Name: Voltage_RN
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                        - Name: Voltage_YN
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                        - Name: Voltage_BN
+                          Type: TrendPen
+                          DataType: BaseDataType
+                          Children:
+                          - Name: Thickness
+                            Type: BaseDataVariableType
+                            DataType: Size
+                            Value: -1.0
+                          - Name: Enabled
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Value: true
+                          - Name: Thresholds
+                            Type: BaseObjectType
+                      - Class: Reference
+                        Target: ns=5;i=1129
+                        Direction: Forward
+                      - Name: XAxis
+                        Type: DateTimeAxis
+                        Children:
+                        - Name: Follow
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Window
+                          Type: BaseDataVariableType
+                          DataType: Duration
+                          Value: "1:00:00:0.0000000"
+                        - Name: Interactive
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Time
+                          Type: BaseDataVariableType
+                          DataType: DateTime
+                          Value: "1601-01-01T00:00:00.0000000"
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Tata_EMS/NetLogic/ClockLogic/Time"
+                        - Name: SnapPosition
+                          Type: BaseDataVariableType
+                          DataType: SnapPositionEnum
+                          ModellingRule: Optional
+                          Value: 1
+                      - Name: YAxis
+                        Type: ValueAxis
+                        Children:
+                        - Name: Position
+                          Type: BaseDataVariableType
+                          DataType: HorizontalPositionEnum
+                          Value: 0
+                        - Name: MinValue
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: 0.0
+                        - Name: MaxValue
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: 100.0
+                        - Name: AutoScale
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Interactive
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                      - Name: LegendVisible
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Value: true
+                      - Class: Reference
+                        Target: ns=5;i=1201
+                        Direction: Forward
+                      - Name: TimeRanges
+                        Type: BaseObjectType
+                      - Class: Reference
+                        Target: ns=5;i=1209
+                        Direction: Forward
+                      - Name: Width
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 400.0
+                      - Name: Height
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 400.0
+                      - Name: ReferenceTimeZone
+                        Type: BaseDataVariableType
+                        DataType: ReferenceTimeZone
+                        ModellingRule: Optional
+                        Value: 1
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 3
+                      - Name: LeftMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 50.0
+                      - Name: TopMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 30.0
+                      - Name: RightMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 35.0
+                      - Name: BottomMargin
+                        Type: BaseVariableType
+                        DataType: Size
+                        ModellingRule: Optional
+                        Value: 50.0
+                      - Name: VerticalAlignment
+                        Type: BaseVariableType
+                        DataType: VerticalAlignment
+                        ModellingRule: Optional
+                        Value: 3
+                      - Name: Visible
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Value: true
+                        Children:
+                        - Name: KeyValueConverter1
+                          Type: ValueMapConverter
+                          Children:
+                          - Name: Source
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../Rectangle1/SpinBox1/Value"
+                          - Name: Pairs
+                            Type: BaseObjectType
+                            ModellingRule: None
+                            Children:
+                            - Name: Pair
+                              Type: ValueMapPair
+                              ModellingRule: None
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ModellingRule: None
+                                Value: 0
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                ModellingRule: None
+                                Value: false
+                            - Name: Pair1
+                              Type: ValueMapPair
+                              ModellingRule: None
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ModellingRule: None
+                                Value: 1
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                ModellingRule: None
+                                Value: false
+                            - Name: Pair2
+                              Type: ValueMapPair
+                              ModellingRule: None
+                              Children:
+                              - Name: Key
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ModellingRule: None
+                                Value: 2
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                ModellingRule: None
+                                Value: true
+                      - Name: ChartStyle
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ModellingRule: Optional
+                        Value: "Default"
+                      - Name: ButtonStyle
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ModellingRule: Optional
+                        Value: "Default"
+                      - Name: ToolTipStyle
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ModellingRule: Optional
+                        Value: "Default"
+                      - Name: Model
+                        Type: NodePointer
+                        DataType: NodeId
+                        ModellingRule: Optional
+                        Value: "/Objects/Tata_EMS_09_10_2024/DataStores/ODBCDatabase"
+                        Children:
+                        - Name: ItemKind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      - Name: Mode
+                        Type: BaseDataVariableType
+                        DataType: TrendModeEnum
+                        ModellingRule: Optional
+                        Value: 0
+                      - Name: Query
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ModellingRule: Optional
+                        Value: "SELECT * FROM \"Realtimetable\" WHERE Meter = 'J1_INCOMER1'"
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: VerticalAlignment
+                    Type: BaseVariableType
+                    DataType: VerticalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 5.0
+                - Name: VerticalAlignment
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#f0f0f0"
+- File: Folder1/Folder1.yaml

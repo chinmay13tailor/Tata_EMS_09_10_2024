@@ -1,0 +1,7 @@
+Name: HomePageHistochartText
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

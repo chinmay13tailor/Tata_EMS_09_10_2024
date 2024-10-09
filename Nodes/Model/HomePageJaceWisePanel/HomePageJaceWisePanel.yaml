@@ -1,0 +1,27 @@
+Name: HomePageJaceWisePanel
+Type: FolderType
+Children:
+- Name: Active Power
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Active Power"
+- Name: Apparent Power
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Apparent Power"
+- Name: Reactive Power
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Reactive Power"
+- Name: 'R-Phase'
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "R-Phase"
+- Name: 'Y-Phase'
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Y-Phase"
+- Name: 'B-Phase'
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "B-Phase"

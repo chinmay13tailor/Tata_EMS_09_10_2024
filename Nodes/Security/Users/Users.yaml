@@ -1,0 +1,101 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: Pima
+  Id: g=affaee8c374ed014eed36bf2fb7b3c4a
+  Type: User_21CFR
+  Children:
+  - Name: Change_Password_On_Next_Login
+    Id: g=8ca37709476f3f55f518b4189664f392
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: User_Blocked
+    Id: g=41f4525d0105a655d3af7d4544479d6c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Password_Creation_Date
+    Id: g=e8246d4e1d0b7efc81c49941cfab229d
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2023-05-31T00:00:00.0000000"
+  - Name: Invalid_Login_Attempts
+    Id: g=990e8543bdbc065dfda3c7bb786df702
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: User_Active
+    Id: g=9cf3595069e20085e239e744e892b9e8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Password
+    Id: g=f48f724c356da8e8a0473dbbebcaef97
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=793ca4fd4ee58ec67bb363c38847b020
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [0,20,153,174,32,116,201,228,247,254,131,251,115,126,57,205,177,241,29,173,212,46,230,87,78,72,201,72,215,44,12,91],
+         "Salt": [225,145,42,78,148,9,25,45,250,88,114,141,63,238,132,229,123,59,113,43,188,71,87,64,86,34,231,244,125,18,4,205]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=e75cb4cc6a874f84d39c4d1725bf8ade
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-03-30T07:27:24.3208678"
+    - Name: History
+      Id: g=01db419475a067fe8053d2cd14d6d501
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[0,20,153,174,32,116,201,228,247,254,131,251,115,126,57,205,177,241,29,173,212,46,230,87,78,72,201,72,215,44,12,91],"Salt":[225,145,42,78,148,9,25,45,250,88,114,141,63,238,132,229,123,59,113,43,188,71,87,64,86,34,231,244,125,18,4,205]}}]
+  - Name: LocaleId
+    Id: g=3d457a968d6ea8deec49504a01262504
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=c24db05dbcf935239b66c69ad375ebbc
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=639dcd1506ab06276aa0458849afaccc
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=089d20a7e18048e663c48aa3407555a0
+  - Class: Reference
+    Type: HasGroup
+    Target: g=97307deb5a49c20130b48aa83ff22737
+  - Class: Reference
+    Type: HasGroup
+    Target: g=5ce9aedbc7399f84f7c65e6ac6fe2925
+  - Class: Reference
+    Type: HasGroup
+    Target: g=1c4c1e8eebe41789249b8f7b4a224eff

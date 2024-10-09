@@ -1,0 +1,260 @@
+Name: Screen Management
+Id: g=dfaea4fd323f592127cd44437f43b75e
+Type: FolderType
+Children:
+- Name: Administrator
+  Id: g=7915a997cf83166770fa292f12a9bf5a
+  Type: BaseObjectType
+  Children:
+  - Name: RealTimePanel
+    Id: g=7d1e541b212543db6a5da2af0d5c3407
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: HistoDashboard
+    Id: g=bead15da9230f6bf49f5635d441da808
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ComparisionDashboard
+    Id: g=aa3575f64b4401a32d7e211f59e90d15
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ConsumptionDashboard
+    Id: g=05c931a8bbe21de1a66695aff65ebb37
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: DailyConsumptionReport
+    Id: g=19291c8c8edb42fe276b0189cc4621da
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: MonthlyConsumptionReport
+    Id: g=0c9a090d601a57ecfb8775e8100d4d88
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: DistributionReport
+    Id: g=ef3d16dcaaad7c1e4df2fc80329ac1cb
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AlarmReport
+    Id: g=1f1453e6e2957f7f9c0b40504083c8c1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AlarmsPerArea
+    Id: g=73f557ceac9d29ab1cf5438b7df9189f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AlarmHistory
+    Id: g=81bd0718f335934b94a659796b28673d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: UserManagement
+    Id: g=7390394a3bcc64cb259da7118eeadb7c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ScreenAccess
+    Id: g=e65dbb1eb8bad6e7d5b49c0f3daa2d15
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: Manager
+  Id: g=ebcdcc1b47d10d5e8f578fa78aac9509
+  Type: BaseObjectType
+  Children:
+  - Name: RealTimePanel
+    Id: g=009dd410237d98f72a851c0eb649fefb
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HistoDashboard
+    Id: g=8c723b44444e59fc926127f8b8dd0b49
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ComparisionDashboard
+    Id: g=07e519293f5b60f51b8cf3e91f37f915
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ConsumptionDashboard
+    Id: g=79bab06a2f2b3e293987cdd01eca7c5f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: DailyConsumptionReport
+    Id: g=1a778a0b55c8b652d41daf23ae1bc607
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MonthlyConsumptionReport
+    Id: g=0b322d22826881c99c15a6af8aacebde
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: DistributionReport
+    Id: g=082d2c309be74932148642b1aa2ef68d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmReport
+    Id: g=5d8e300eec721191e6ee8bd6008cd04d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmsPerArea
+    Id: g=27132b2a6767646e4420c3a06058ce98
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmHistory
+    Id: g=945e5ecedf8eb724b8ecd0e5930266a9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: UserManagement
+    Id: g=7dbef82f379d2f87ed59851736f4c436
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ScreenAccess
+    Id: g=1bbad1164b0b02913aa972abfdc54410
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Supervisor
+  Id: g=6ac1902a60b1a23bc497aab5bee29126
+  Type: BaseObjectType
+  Children:
+  - Name: RealTimePanel
+    Id: g=ffcb0d69b6650c59740b888a051334ad
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HistoDashboard
+    Id: g=76dee222e551e4b8ecb3662b83ac56c5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ComparisionDashboard
+    Id: g=c7d68bff564a2de82c6b5b1eabf63bf2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ConsumptionDashboard
+    Id: g=dd9c4c2731331145a66d8828c643f98d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: DailyConsumptionReport
+    Id: g=3c0fe53c191cfd1485ac5a138edecb0b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MonthlyConsumptionReport
+    Id: g=72a00c62a379905b48e8af37486d2f9b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: DistributionReport
+    Id: g=ec6a44e1807853c2158e58d95fbc0f25
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmReport
+    Id: g=2e185123535e056c713175e909fc7671
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmsPerArea
+    Id: g=1d82e5f1559428b52896cf92f72c64e4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmHistory
+    Id: g=f86ccf615b84a4e7aebb54db0360b0a5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: UserManagement
+    Id: g=ee07d2b3407b26f8b534d1856b265cc6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ScreenAccess
+    Id: g=6043effe07c0e6db38cd0145d0c0e004
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Operator
+  Id: g=3a54c4459b2c49d5ec34b285acca493b
+  Type: BaseObjectType
+  Children:
+  - Name: RealTimePanel
+    Id: g=063fbe0f6e7f5fd7733babce19ca7733
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HistoDashboard
+    Id: g=a189f1456915a3d8a359167d433a55ac
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ComparisionDashboard
+    Id: g=ebe4a06dfc459172125f6fd3fd4db2da
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ConsumptionDashboard
+    Id: g=2977ef8c9019f47af7720badade01a4b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: DailyConsumptionReport
+    Id: g=5f15663d6e60ef04ea260188b026db31
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MonthlyConsumptionReport
+    Id: g=4ca879dc4620b892480fbe07d13ccb1a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: DistributionReport
+    Id: g=44ae3adc7892c95c2d63cd66a4454d15
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmReport
+    Id: g=3fbbff1a81ebde4d38c20db45907111d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmsPerArea
+    Id: g=014489c7098b25d5e9ad699557ca7acf
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmHistory
+    Id: g=35db2c230851edfbae7a13dc2a15e197
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: UserManagement
+    Id: g=59489f3b16923e80c8d0283aa10e94e7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ScreenAccess
+    Id: g=472fd2c70bb0d7e88ea820837b6d2b4b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false

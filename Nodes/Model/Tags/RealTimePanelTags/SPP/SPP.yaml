@@ -1,0 +1,12 @@
+Name: SPP
+Type: FolderType
+Children:
+- File: J9_MVS_IN1/J9_MVS_IN1.yaml
+- File: J9_MVS_IN2/J9_MVS_IN2.yaml
+- File: J9_MVS_OG1/J9_MVS_OG1.yaml
+- File: J9_MVS_OG2/J9_MVS_OG2.yaml
+- File: J9_SWB_01_1F1/J9_SWB_01_1F1.yaml
+- File: J9_SWB_01_4F1/J9_SWB_01_4F1.yaml
+- File: J9_SWB_02_1F1/J9_SWB_02_1F1.yaml
+- File: J9_1_DB_0_01_1F1/J9_1_DB_0_01_1F1.yaml
+- File: J9_EDB_0_01_1F1/J9_EDB_0_01_1F1.yaml
